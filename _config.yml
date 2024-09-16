@@ -9,8 +9,8 @@ delivery: "static"
 # Overall title for the Workshop.
 # This variable is used to (optionally) add a title in the "jumbotron"
 # (the grey box at the top of the page), and to the extra pages.
-title: "Computational Research Skills"
-form_title: "Computational+Research+Skills" # This is required for the surveys
+title: "Quantitative Cell Biology: Computational Research Skills"
+form_title: "Quantitative+Cell+Biology+Computational+Research+Skills" # This is required for the surveys
 
 # Email address, no mailto:
 email: "rsginfo@soton.ac.uk"
