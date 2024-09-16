@@ -9,8 +9,8 @@ delivery: "dated"
 # Overall title for the Workshop.
 # This variable is used to (optionally) add a title in the "jumbotron"
 # (the grey box at the top of the page), and to the extra pages.
-title: "QCB 2024 Introduction to Version Control and R"
-form_title: "QCB+2024+Introduction+to+Version+Control+and+R" # This is required for the surveys
+title: "Introduction to Research Computing"
+form_title: "Introduction+to+Research+Computing" # This is required for the surveys
 
 # Email address, no mailto:
 email: "rsginfo@soton.ac.uk"
@@ -18,57 +18,85 @@ logo_site: "https://rsgsoton.net"
 
 # For static delivery this section can all be ignored ==================================================================
 # Specify the location of the workshop
-venue: "online"           # name of location use "online" if online
-address: "TBC"         # address of location or url of platform
-platform-name: "TBC"   # name of online platform e.g. Teams, Zoom e.t.c
-country: "TBC"         # e.g. gb
-language: "TBC"        # e.g. en
+venue: "Online"           # name of location use "online" if online
+address: "Teams"         # address of location or url of platform
+platform-name: "Teams"   # name of online platform e.g. Teams, Zoom e.t.c
+country: "gb"         # e.g. gb
+language: "en"        # e.g. en
 latitude: "50.909698"    # latitude of location (Soton: 50.909698)
 longitude: "-1.404351"   # longitude of location (Soton: -1.404351)
 
 # Specify the start and end date of the workshop
-humandate: "7th - 11th October 2024"      # e.g. "6th August"
-humantime: "09:30 - 13:00"      # e.g. "09:00-17:00"
-startdate: "2024-10-07"        # e.g. YYYY-MM-DD # This is required for the surveys NOTE: 1990-1-1 will not work
-enddate: "2024-10-11"          # e.g. YYYY-MM-DD
+humandate: "4th March - 13th March 2024"      # e.g. "6th August"
+humantime: "13:00 - 16:30"      # e.g. "09:00-17:00"
+startdate: 2024-03-04        # e.g. YYYY-MM-DD # This is required for the surveys NOTE: 1990-1-1 will not work
+enddate: 2024-03-13         # e.g. YYYY-MM-DD
 
 # Specify the details of the instructors and helpers
 # Can be list, or single string
 instructor:
-  - "Sam Mangham"
-  - "Philly Broadbent"
+  - "Ed Parkinson"
+  - "Max Albert"
+  - "Mehtap Özbey Arabaci"
+  - "Philippa Broadbent"
+
 instructor-email:
-  - "s.mangham@soton.ac.uk"
+  - "e.parkinson@soton.ac.uk"
+  - "M.H.Albert@soton.ac.uk"
+  - "M.Ozbey-Arabaci@soton.ac.uk"
   - "p.k.broadbent@soton.ac.uk"
+  
 helper:
-  - "Harry Baker"
+  - "Jamie Court"
   - "Matt Johnson"
+  - "Hugh Warden"
+  - "Jennifer Barnes-Nunn"
   - "Moi Nicholas"
 # ======================================================================================================================
 
 # Details about the lessons
-lessons:                                    # The position of the lesson in the course # order is required for 'delivery: static'
-  - title: Version Control with git
-    gh-name: git-novice
+lessons:
+  - title: Best Practices in Data Organisation Using Spreadsheets
+    gh-name: spreadsheets
     type: episode
     branch: main
-    date: 7 October 2024
-    start-time: 09:30
+    date: 4 March 2024
+    start-time: 13:00
     order: 1
 
- - title: Data Analysis and Visualization in R
-   gh-name: r-novice
-   type: episode
-   branch: main
-   date:
-     - 09 October 2024
-     - 10 October 2024
-     - 11 October 2024
-   start-time:
-     - 09:30
-     - 09:30
-     - 09:30
-   order: 2
+  - title: Data Cleaning with OpenRefine
+    gh-name: openrefine-data-cleaning
+    type: episode
+    branch: main
+    date: 5 March 2024
+    start-time: 13:00
+    order: 2
+
+  - title: Building Programs with Python
+    gh-name: python-novice
+    type: episode
+    branch: main
+    date:
+      - 6 March 2024
+      - 7 March 2024
+    start-time:
+      - 13:00
+      - 13:00
+    order: 3
+
+  - title: Data Analysis and Visualization in R
+    gh-name: r-novice
+    type: episode
+    branch: main
+    date:
+      - 11 March 2024
+      - 12 March 2024
+      - 13 March 2024
+    start-time:
+      - 13:00
+      - 13:00
+      - 13:00
+    order: 4
 
 ###
 # It is unlikely you need to modify the values below this line
