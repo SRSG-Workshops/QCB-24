@@ -1,8 +1,8 @@
 ---
-lesson_title: 'Version Control with git'
-lesson_schedule_slug: git-novice-schedule
+lesson_title: 'Data Analysis and Visualization in R'
+lesson_schedule_slug: r-novice-schedule
 title: "Survey"
-slug: git-novice-survey
+slug: lesson-survey
 layout: page
 ---
 

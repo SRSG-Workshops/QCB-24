@@ -55,7 +55,7 @@ lessons:
     gh-name: git-novice
     type: episode
     branch: main
-    date: 9 October 2023
+    date: 7 October 2024
     start-time: 09:30
     order: 1
 
@@ -64,11 +64,11 @@ lessons:
     type: episode
     branch: main
     date:
-      - 10 October 2023
-      - 11 October 2023
-      - 12 October 2023
+      - 9 October 2024
+      - 10 October 2024
+      - 11 October 2024
     start-time:
-      - 14:30
+      - 09:30
       - 09:30
       - 09:30
     order: 2
