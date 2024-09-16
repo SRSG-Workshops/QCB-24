@@ -29,74 +29,48 @@ longitude: "-1.404351"   # longitude of location (Soton: -1.404351)
 # Specify the start and end date of the workshop
 humandate: "7th October - 11th October 2024"      # e.g. "6th August"
 humantime: "09:30-13:00"      # e.g. "09:00-17:00"
-startdate: 2024-10-07        # e.g. YYYY-MM-DD # This is required for the surveys NOTE: 1990-1-1 will not work
-enddate: 2024-10-11         # e.g. YYYY-MM-DD
+startdate: 2024-03-04        # e.g. YYYY-MM-DD # This is required for the surveys NOTE: 1990-1-1 will not work
+enddate: 2024-03-13         # e.g. YYYY-MM-DD
 
 # Specify the details of the instructors and helpers
 # Can be list, or single string
 instructor:
-  - "Ed Parkinson"
-  - "Max Albert"
-  - "Mehtap Özbey Arabaci"
+  - "Sam Mangham"
   - "Philippa Broadbent"
 
 instructor-email:
-  - "e.parkinson@soton.ac.uk"
-  - "M.H.Albert@soton.ac.uk"
-  - "M.Ozbey-Arabaci@soton.ac.uk"
+  - "s.mangham@soton.ac.uk"
   - "p.k.broadbent@soton.ac.uk"
   
 helper:
-  - "Jamie Court"
+  - "Harry Baker"
   - "Matt Johnson"
-  - "Hugh Warden"
-  - "Jennifer Barnes-Nunn"
   - "Moi Nicholas"
 # ======================================================================================================================
 
 # Details about the lessons
 lessons:
-  - title: Best Practices in Data Organisation Using Spreadsheets
-    gh-name: spreadsheets
+  - title: Version Control with git
+    gh-name: git-novice
     type: episode
     branch: main
-    date: 4 March 2024
-    start-time: 13:00
+    date: 7 November 2024
+    start-time: 09:30
     order: 1
-
-  - title: Data Cleaning with OpenRefine
-    gh-name: openrefine-data-cleaning
-    type: episode
-    branch: main
-    date: 5 March 2024
-    start-time: 13:00
-    order: 2
-
-  - title: Building Programs with Python
-    gh-name: python-novice
-    type: episode
-    branch: main
-    date:
-      - 6 March 2024
-      - 7 March 2024
-    start-time:
-      - 13:00
-      - 13:00
-    order: 3
 
   - title: Data Analysis and Visualization in R
     gh-name: r-novice
     type: episode
     branch: main
     date:
-      - 11 March 2024
-      - 12 March 2024
-      - 13 March 2024
+      - 9 November 2024
+      - 10 November 2024
+      - 11 November 2024
     start-time:
-      - 13:00
-      - 13:00
-      - 13:00
-    order: 1
+      - 09:30
+      - 09:30
+      - 09:30
+    order: 2
 
 ###
 # It is unlikely you need to modify the values below this line
