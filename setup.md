@@ -1,5 +1,5 @@
 ---
-title: Setup for Computational Research Skills
+title: Setup for Quantitative Cell Biology: Computational Research Skills
 ---
 
 
