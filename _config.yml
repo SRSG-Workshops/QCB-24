@@ -50,9 +50,10 @@ helper:
 lessons:                                    # The position of the lesson in the course # order is required for 'delivery: static'
   - title: Version Control with git
     gh-name: git-novice
+    type: episode
     branch: main
     date: 7 October 2024
-    start-time: 09:30 am
+    start-time: 09:30
     order: 1
 
  - title: Data Analysis and Visualization in R
