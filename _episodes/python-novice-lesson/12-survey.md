@@ -1,8 +1,8 @@
 ---
-lesson_title: 'Best Practices in Data Organisation Using Spreadsheets'
-lesson_schedule_slug: spreadsheets-schedule
+lesson_title: 'Building Programs with Python'
+lesson_schedule_slug: python-novice-schedule
 title: "Survey"
-slug: lesson-survey
+slug: python-novice-survey
 layout: page
 ---
 
